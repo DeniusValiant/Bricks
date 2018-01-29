@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonGenerators", "SingletonGenerators\SingletonGenerators.csproj", "{8A176346-83D6-4788-AB5D-31D76DC9FB86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{B326297B-5703-4C6C-B7D1-E6A4AE1E5D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singletons", "Singletons", "{6D3D11C0-F6F9-4A41-B614-7971654982E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET", "ASPNET\ASPNET.csproj", "{EA142518-C9A6-4814-B4FD-CE3B39B720D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A176346-83D6-4788-AB5D-31D76DC9FB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A176346-83D6-4788-AB5D-31D76DC9FB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A176346-83D6-4788-AB5D-31D76DC9FB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A176346-83D6-4788-AB5D-31D76DC9FB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A176346-83D6-4788-AB5D-31D76DC9FB86} = {6D3D11C0-F6F9-4A41-B614-7971654982E1}
+		{EA142518-C9A6-4814-B4FD-CE3B39B720D9} = {B326297B-5703-4C6C-B7D1-E6A4AE1E5D7A}
+	EndGlobalSection
+EndGlobal
