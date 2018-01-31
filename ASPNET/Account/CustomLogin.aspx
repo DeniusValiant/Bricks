@@ -3,19 +3,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <script type="text/javascript">
-    function setSize() {
-        window.resizeTo(300, 300);
-        document.body.style.overflow = 'hidden';
-        window.moveTo(100, 100);
-        window.focus();
+    function OnClose() {
+        if (window.opener != null && !window.opener.closed) {
+            window.opener.HideModalDiv();
+            alert('1');
+        }
     }
+    window.onunload = OnClose;
 </script>
 <head runat="server">
     <title></title>
     <link href="../CSS/Custom.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <form id="form1" runat="server" style="width: 500px; height: 300px">
+    <form id="form1" runat="server" style="width: 500px; height: 300px" >
     <div class="loginform">
         <div> 
             <asp:Label ID="Label1" runat="server" Text="Login"></asp:Label>

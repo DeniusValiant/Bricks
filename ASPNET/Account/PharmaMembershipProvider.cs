@@ -940,7 +940,7 @@ namespace ASPNET.Account
             bool isValid = false;
 
             SqlConnection conn = new SqlConnection(connectionString);
-            SqlCommand cmd = new SqlCommand("SELECT Password, IsApproved FROM Users " +
+            SqlCommand cmd = new SqlCommand("SELECT PasswordString, IsApproved FROM Users " +
                     " WHERE Username = @Username AND ApplicationName = @ApplicationName AND IsLockedOut = 0", conn);
 
             cmd.Parameters.Add("@Username", SqlDbType.NVarChar, 255).Value = username;

@@ -17,6 +17,9 @@ namespace ASPNET
                     laLoginStatus.Text = "Logged as " + System.Web.HttpContext.Current.User.Identity.Name;
                 }
             }
+
+            ScriptManager.RegisterStartupScript(this, Page.GetType(), "OnLoad", "AdjustLoginWindow();", true);
+            ScriptManager.RegisterStartupScript(this, Page.GetType(), "OnLoad", "LoadModalDiv();", true);
         }
     }
 }
