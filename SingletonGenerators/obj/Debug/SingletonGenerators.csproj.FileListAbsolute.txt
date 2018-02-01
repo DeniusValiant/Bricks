@@ -1,6 +1,0 @@
-C:\Workspace\Git\Bricks\SingletonGenerators\bin\Debug\SingletonGenerators.exe.config
-C:\Workspace\Git\Bricks\SingletonGenerators\bin\Debug\SingletonGenerators.exe
-C:\Workspace\Git\Bricks\SingletonGenerators\bin\Debug\SingletonGenerators.pdb
-C:\Workspace\Git\Bricks\SingletonGenerators\obj\Debug\SingletonGenerators.csprojResolveAssemblyReference.cache
-C:\Workspace\Git\Bricks\SingletonGenerators\obj\Debug\SingletonGenerators.exe
-C:\Workspace\Git\Bricks\SingletonGenerators\obj\Debug\SingletonGenerators.pdb
