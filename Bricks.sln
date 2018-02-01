@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singletons", "Singletons", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET", "ASPNET\ASPNET.csproj", "{EA142518-C9A6-4814-B4FD-CE3B39B720D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5E79E431-9572-4A6B-977D-28BC47A49CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopUpWindow", "PopUpWindow\PopUpWindow.csproj", "{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA142518-C9A6-4814-B4FD-CE3B39B720D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8A176346-83D6-4788-AB5D-31D76DC9FB86} = {6D3D11C0-F6F9-4A41-B614-7971654982E1}
 		{EA142518-C9A6-4814-B4FD-CE3B39B720D9} = {B326297B-5703-4C6C-B7D1-E6A4AE1E5D7A}
+		{6FA3566A-18C1-4E8E-8318-7CE7C7136A6A} = {5E79E431-9572-4A6B-977D-28BC47A49CAC}
 	EndGlobalSection
 EndGlobal

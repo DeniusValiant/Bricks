@@ -1,0 +1,5 @@
+C:\Workspace\Authentication\ASPNET\bin\ASPNET.dll
+C:\Workspace\Authentication\ASPNET\bin\ASPNET.pdb
+C:\Workspace\Authentication\ASPNET\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\Authentication\ASPNET\obj\Debug\ASPNET.dll
+C:\Workspace\Authentication\ASPNET\obj\Debug\ASPNET.pdb
